@@ -1,0 +1,302 @@
+﻿:root {
+    --main: #00b5b5;
+    --text: #828282;
+    --hover: #007f82;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+.col-lg-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+body {
+    font-family: rubik;
+}
+.web-header-section .navbar {
+    padding: 10px 40px;
+    margin: 0 auto;
+    position: relative;
+}
+.web-header-section .navbar-brand img {
+    float: left;
+    margin: 10px
+}
+.web-header-section .navbar-brand span {
+    position: absolute;
+    color: var(--text);
+}
+.web-header-section .navbar-brand .brand {
+    font-size: 16px;
+    font-weight: 400;
+    top: 30px;
+}
+.web-header-section .navbar-brand .subtitle {
+    font-size: 14px;
+    font-weight: 200;
+    top: 50px;
+}
+.web-header-section .navbar-light .navbar-nav .nav-link:hover {
+    background-color: var(--main);
+    color: #ffffff;
+}
+.web-home-section {
+    width: 100%;
+    height: 790px;
+    position: relative;
+}
+.web-home-section .card {
+    height: 100%;
+    border: none;
+    border-radius: 0;
+}
+.web-home-section .card .text-white {
+    margin: 100px auto;
+    padding: 50px 0;
+}
+.web-home-section .card .card-title {
+    font-size: 60px;
+    font-weight: lighter;
+}
+.web-home-section .card p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 50px 0;
+}
+.web-home-section .card .btn-primary {
+    background-color: var(--main);
+    border-color: var(--main);
+    border-radius: 0;
+    padding: 10px 20px;
+    margin: 35px auto;
+}
+.web-home-section .card .btn-primary:hover {
+    background-color: var(--hover);
+    border-color: var(--hover);
+}
+.web-home-section .card .fa-chevron-circle-down {
+    font-size: 60px;
+    color: white;
+    margin-top: 65px;
+}
+.web-portfolio-section {
+    background-color: white;
+    padding: 50px 0;
+}
+.web-portfolio-section .col-lg-12 {
+    padding: 0;
+}
+.web-portfolio-section h1 {
+    font-size: 33px;
+    font-weight: lighter;
+    color: #444444;
+}
+.web-portfolio-section p {
+    font-size: 18px;
+    padding: 15px;
+}
+.web-portfolio-section .nav .nav-link {
+    background-color: var(--main);
+    border-color: var(--main);
+    color: white;
+    font-size: 15px;
+    padding: 16px;
+    margin: 20px;
+}
+.web-portfolio-section .nav .nav-link:hover {
+    background-color: var(--hover);
+    border-color: var(--hover);
+}
+.web-portfolio-section .porfilio-item {
+    width: 90%;
+    margin: 20px auto;
+}
+.web-portfolio-section .porfilio-item .content-item {
+    position: relative;
+    width: 89%;
+    margin-top: 42px;
+    left: 15px
+}
+.web-portfolio-section .porfilio-item .content-item img {
+    width: 100%;
+    transition: .7s ease;
+}
+.web-portfolio-section .content-item .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 181, 181, 0.7);
+    border-radius: 50%;
+}
+.web-portfolio-section .content-item .overlay .overlay-text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.web-portfolio-section .content-item .overlay .overlay-text .fa-search {
+    width: 60px;
+    height: 60px;
+    padding: 13px;
+    background-color: rgba(78, 102, 94, .7);
+    border-radius: 50%;
+}
+.content-item:hover .overlay {
+    opacity: 1;
+}
+.web-about-section {
+    width: 100%;
+    background-color: #f1654c;
+    padding: 50px;
+    position: relative;
+}
+.web-about-section .text-center h1 {
+    font-size: 30px;
+    color: white;
+}
+.web-about-section .text-center p {
+    font-size: 22px;
+    color: white;
+    padding: 20px 0;
+}
+.web-about-section .about-content {
+    width: 82%;
+    margin: 25px auto;
+}
+.web-about-section .about-content .card {
+    position: relative;
+    border: none;
+    border-radius: 0;
+    width: 88%;
+}
+.web-about-section .about-content .card-body {
+    padding: 30px 32px 10px
+}
+.web-about-section .about-content .card-body p {
+    margin: 10px 0;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.web-about-section .about-content .card-body .card-title strong {
+    font-size: 25px;
+    font-weight: 500;
+}
+.web-about-section .about-content .card-body h6 {
+    font-style: italic;
+}
+.web-about-section .about-content .card .card-img-top {
+    border-radius: 0
+}
+.web-about-section .about-content .card .about-overlay {
+    position: absolute;
+    background-color: rgba(0, 181, 181, 0.7);
+    color: white;
+    width: 60%;
+    padding: 0 8px;
+    transition: .5s ease;
+    top: 25%;
+    left: 20%;
+    opacity: 0;
+}
+.web-about-section .about-content .card:hover .about-overlay {
+    opacity: 1;
+}
+.web-about-section .about-content .card .about-overlay ul li {
+    float: right;
+    padding: 10px;
+    font-size: 25px;
+}
+.web-contact-section {
+    background-color: #ecf0f1;
+    padding: 50px 40px;
+    color: #444444;
+}
+.web-contact-section .text-center h1 {
+    font-size: 30px;
+}
+.web-contact-section .text-center p {
+    font-size: 22px;
+    padding: 20px 0;
+}
+.web-contact-section .form-control {
+    padding: 17px;
+    margin: 12px 0;
+    border-radius: 0;
+    border: 2px solid #bec3c7;
+}
+.web-contact-section textarea {
+    resize: none;
+    height: 250px;
+}
+.web-contact-section form button {
+    float: right;
+    font-size: 18px;
+    padding: 10px 40px;
+    background-color: var(--main);
+    border-color: var(--main);
+    border-radius: 0;
+    margin-top: 10px;
+}
+.web-contact-section form .btn-primary:hover {
+    color: #fff;
+    background-color: var(--hover);
+    border-color: var(--hover);
+}
+.web-contact-section form .btn-primary:not(:disabled):not(.disabled).active,.web-contact-section form .btn-primary:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: var(--hover);
+    border-color: var(--hover);
+}
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,127,130,.5);
+}
+.web-contact-section .about-info {
+    margin: 12px 0;
+}
+.web-contact-section .about-info h1 {
+    font-size: 20px;
+    margin-bottom: 25px
+}
+.web-contact-section .about-info p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 22px;
+}
+.web-contact-section .about-info ul li {
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+footer {
+    padding: 40px 25px;
+    font-size: 18px;
+    background-color: #2d3e50;
+    color: white;
+    position: relative;
+}
+footer .icon-footer {
+    position: absolute;
+    left: 95%;
+    top: 36px;
+    float: right;
+}
+footer .icon-footer a {
+    background-color: var(--main);
+    color: white;
+    padding: 7px 12px;
+    font-size: 23px;
+}
